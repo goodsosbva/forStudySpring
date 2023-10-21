@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @SpringBootApplication
 public class QuizApplication {
-	/** 구동 매서드 */
+	/** 구동 매서드. */
 	public static void main(String[] args) {
 		SpringApplication.run(QuizApplication.class, args)
 				.getBean(QuizApplication.class).execute();
